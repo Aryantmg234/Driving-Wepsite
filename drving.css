@@ -1,0 +1,115 @@
+
+/* Hero Section */
+
+.hero-section{
+    background-image:url('https://static.foxnews.com/foxnews.com/content/uploads/2023/03/rev-gif.gif');
+    background-size:cover;
+    background-position:center;
+    color:#fff;
+    padding: 100px 100px;
+    text-align:center;
+    height:100vh;
+}
+
+.hero-section h1{
+    font-size: 60px;
+    margin-bottom:20px;
+    text-shadow : 5px 5px black;
+    text-align:center;
+}
+
+.hero-section p {
+    font-size: 8px;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px black;
+}
+
+/* About Section */
+
+.about-section {
+    padding: 100px 0;
+    text-align:center;
+    height:100vh;
+    color:white;
+}
+
+.about-section h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Service section */
+
+.services-section {
+    background-image:url('https://media.tenor.com/DTuainWLjpAAAAAC/lamborghini-revuelto.gif');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    padding:100px 0;
+    color:white;
+}
+
+.services-section h2{
+    
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.services-section ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.services-section ul li{
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+/* Contact section */
+
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    text-align: center;
+    height:100vh;
+    color:white;
+}
+
+.contact-section h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.contact-section form{
+    margin-top: 30px;
+}
+
+.contact-section form .form-group{
+    margin-bottom: 20px;
+}
+
+.contact-section form input[type="text"],
+.contact-section form input[type="email"],
+.contact-section form textarea{
+    width: 100%;
+    padding:2%;
+    font-size:16px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.contact-section form button[type="submit"]{
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border:none;
+    background-color: #007bff;
+}
+
+.contact-section form button[type="submit"]:hover{
+    background-color: #0056b3;
+    cursor: pointer;
+}
